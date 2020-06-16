@@ -1,0 +1,8 @@
+<view class="box" wx:if="{{show}}">
+	<view class="arrow" style="margin-right:{{marginRight}}px;"></view>
+	<view class="body" bindtap="hide">
+		<view class="content">
+			<slot name="content"></slot>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,47 @@
+.box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 600rpx;
+  font-weight: 300;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-width: 16rpx;
+  border-style: solid;
+  border-color: transparent transparent #fec459 transparent;
+}
+
+.add {
+  width: 20px;
+  height: 20px;
+}
+
+.cross {
+  width: 16px;
+  height: 16px;
+}
+
+.body {
+  color: #FFF;
+  font-size: 20rpx;
+  font-weight: 400;
+  background-color: #fec459;
+  box-shadow: 0 0.17067rem 0.85333rem 0 rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 15rpx 20rpx;
+  margin-right: 30rpx;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
