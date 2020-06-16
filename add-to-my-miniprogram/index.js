@@ -35,7 +35,7 @@ Component({
 
       // 右上角胶囊按钮位置信息
       const menu = wx.getMenuButtonBoundingClientRect()
-      const marginRight = Math.round(menu.width * 15 / 20)
+      const marginRight = Math.round(menu.width / 2) + 23
 
       this.setData({
         show: true,
