@@ -1,10 +1,10 @@
 # add-to-my-miniprogram 添加到我的小程序
 
-一个微信UI组件，可用于提示用户将目标小程序「添加到我的小程序」中。
+一个微信小程序UI组件，用于提示用户将目标小程序「添加到我的小程序」中。
 
 ## 使用
 
-1. 点击右上角「Clone or download」按钮，仓库克隆/下载至本地后，将「add-to-my-miniprogram」目录引入自己的项目中，例如 `/components/add-to-my-miniprogram/`。
+1. 点击右上角「Clone or download」按钮，仓库克隆/下载至本地后，将「add-to-my-miniprogram」目录引入自己的微信小程序项目中，例如 `/components/add-to-my-miniprogram/`。
 2. 在全局配置文件`app.json`或页面配置文件`index.json`中引入组件。
 ```
 {
